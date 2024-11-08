@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mental_health_tracker/menu.dart';
+import 'package:mental_health_tracker/screens/menu.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Page',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -29,8 +29,8 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
-         colorScheme: ColorScheme.fromSwatch(
-              primarySwatch: Colors.deepPurple,
+        colorScheme: ColorScheme.fromSwatch(
+          primarySwatch: Colors.deepPurple,
         ).copyWith(secondary: Colors.deepPurple[400]),
         useMaterial3: true,
       ),
@@ -38,4 +38,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
